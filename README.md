@@ -17,7 +17,7 @@ After that just clone the repository, cd into which ever exchange you want to ru
 
 #### config.js
 
-Add your own links for the jsonRPC provider(infura_mainnet_ws in config.js) , telegram channel and bot IDs.
+Add your own links for the jsonRPC provider(infura_mainnet_ws in config.js). Then create a tg bot and make it an admin in your newly created channel. Then plug the channel and bot ID in the config file so the whale watcher can now send messages. 
 
 #### whaleList.csv
 This is the csv file that will contain the addresses you want to track, you dont have to make sure ever address is checksum, since the code checks for that anyway, but it would probably be optimal. Just follow the format in the example_file.
