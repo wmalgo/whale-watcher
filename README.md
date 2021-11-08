@@ -11,8 +11,6 @@ To run the whale watcher, you need to have the following installed
 * etherjs
 * node-telegram-bot-api
 
-After that just clone the repository, cd into which ever exchange you want to run on, and run main.py inside that directory.
-
 ### Configuration
 
 #### config.js
