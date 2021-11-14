@@ -21,5 +21,6 @@ Add your own links for the jsonRPC provider(infura_mainnet_ws in config.js). The
 This is the csv file that will contain the addresses you want to track, you dont have to make sure ever address is checksum, since the code checks for that anyway, but it would probably be optimal. Just follow the format in the example_file.
 
 ### Run
-Just run >node main.js
+Just run 
+> node main.js
 
